@@ -1,0 +1,16 @@
+h1{
+    color: green;
+}
+.parent{
+    display: grid;
+    grid: 20px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto ;
+    background-color: black;
+}
+.item1{
+    background-color: gray;
+    margin: 30px;
+    height: 100px;
+    text-align:  center;
+}
